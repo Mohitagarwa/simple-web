@@ -1,0 +1,79 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: century Gothic;
+    transition: 0.6s ease;
+}
+header
+{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../nature.jpg);
+  height: 100vh;
+}
+ul
+{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a
+{
+  text-decoration: none;
+  color: #fff;
+  padding: 4px 20px;
+  border: 1px dotted transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover
+{
+  color: blue;
+  background-color: #fff;
+}
+.logo img
+{
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+ .main{
+  max-width: 1300px;
+ }
+ .head
+ {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+ }
+ .head h1
+ {
+   color: #fff;
+   font-size: 60px;
+}
+ .button
+ {
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+
+}
+ .btn{
+   text-decoration: none;
+   color: #fff;
+   padding: 4px 20px;
+   border: 1px solid #fff ;
+   transition: 0.6s ease;
+   padding: 10px 30px;
+     transition: 0.6s ease;
+ }
+  .btn:hover
+  {
+    background-color: white;
+    color: blue;
+  }
